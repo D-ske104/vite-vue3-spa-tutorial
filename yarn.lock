@@ -330,10 +330,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^18.14.0":
+  version: 18.14.0
+  resolution: "@types/node@npm:18.14.0"
+  checksum: d83fcf5e4ed544755dd9028f5cbb6b9d46235043159111bb2ad62223729aee581c0144a9f6df8ba73d74011db9ed4ebd7af2fd5e0996714e3beb508a5da8ac5c
+  languageName: node
+  linkType: hard
+
 "@types/semver@npm:^7.3.12":
   version: 7.3.13
   resolution: "@types/semver@npm:7.3.13"
   checksum: 00c0724d54757c2f4bc60b5032fe91cda6410e48689633d5f35ece8a0a66445e3e57fa1d6e07eb780f792e82ac542948ec4d0b76eb3484297b79bd18b8cf1cb0
+  languageName: node
+  linkType: hard
+
+"@types/vue@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@types/vue@npm:2.0.0"
+  dependencies:
+    vue: "*"
+  checksum: c5e6f7281d25f951ed7e160c12e88738ec65691b01648987428ee65730e69bc6f7aa50e6218e86ebf662ade8b6ae274a59e54047f83609af805db9c64b858f39
   languageName: node
   linkType: hard
 
@@ -3500,6 +3516,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vite-vue3-spa-tutorial@workspace:."
   dependencies:
+    "@types/node": ^18.14.0
+    "@types/vue": ^2.0.0
     "@typescript-eslint/eslint-plugin": ^5.52.0
     "@typescript-eslint/parser": ^5.52.0
     "@vitejs/plugin-vue": ^4.0.0
@@ -3655,7 +3673,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:^3.2.45":
+"vue@npm:*, vue@npm:^3.2.45":
   version: 3.2.47
   resolution: "vue@npm:3.2.47"
   dependencies:

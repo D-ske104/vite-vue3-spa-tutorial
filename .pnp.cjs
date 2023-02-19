@@ -33,6 +33,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@types/node", "npm:18.14.0"],\
+            ["@types/vue", "npm:2.0.0"],\
             ["@typescript-eslint/eslint-plugin", "virtual:9acf6c26498f954ce3381b3bfc555c2a1f59645ea70e86e2566dbc73546b3dc11e8e154c6a3e7122182171ef5e4afadd8b0934b1cb3c916336e90de767918eab#npm:5.52.0"],\
             ["@typescript-eslint/parser", "virtual:9acf6c26498f954ce3381b3bfc555c2a1f59645ea70e86e2566dbc73546b3dc11e8e154c6a3e7122182171ef5e4afadd8b0934b1cb3c916336e90de767918eab#npm:5.52.0"],\
             ["@vitejs/plugin-vue", "virtual:9acf6c26498f954ce3381b3bfc555c2a1f59645ea70e86e2566dbc73546b3dc11e8e154c6a3e7122182171ef5e4afadd8b0934b1cb3c916336e90de767918eab#npm:4.0.0"],\
@@ -447,11 +449,30 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@types/node", [\
+        ["npm:18.14.0", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.14.0-ddc1a221d2-d83fcf5e4e.zip/node_modules/@types/node/",\
+          "packageDependencies": [\
+            ["@types/node", "npm:18.14.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@types/semver", [\
         ["npm:7.3.13", {\
           "packageLocation": "./.yarn/cache/@types-semver-npm-7.3.13-56212b60da-00c0724d54.zip/node_modules/@types/semver/",\
           "packageDependencies": [\
             ["@types/semver", "npm:7.3.13"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/vue", [\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/@types-vue-npm-2.0.0-f610479937-c5e6f7281d.zip/node_modules/@types/vue/",\
+          "packageDependencies": [\
+            ["@types/vue", "npm:2.0.0"],\
+            ["vue", "npm:3.2.47"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -679,7 +700,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@vitejs/plugin-vue", "virtual:9acf6c26498f954ce3381b3bfc555c2a1f59645ea70e86e2566dbc73546b3dc11e8e154c6a3e7122182171ef5e4afadd8b0934b1cb3c916336e90de767918eab#npm:4.0.0"],\
             ["@types/vite", null],\
-            ["@types/vue", null],\
+            ["@types/vue", "npm:2.0.0"],\
             ["vite", "virtual:9acf6c26498f954ce3381b3bfc555c2a1f59645ea70e86e2566dbc73546b3dc11e8e154c6a3e7122182171ef5e4afadd8b0934b1cb3c916336e90de767918eab#npm:4.1.2"],\
             ["vue", "npm:3.2.47"]\
           ],\
@@ -4107,7 +4128,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["vite", "virtual:9acf6c26498f954ce3381b3bfc555c2a1f59645ea70e86e2566dbc73546b3dc11e8e154c6a3e7122182171ef5e4afadd8b0934b1cb3c916336e90de767918eab#npm:4.1.2"],\
             ["@types/less", null],\
-            ["@types/node", null],\
+            ["@types/node", "npm:18.14.0"],\
             ["@types/sass", null],\
             ["@types/stylus", null],\
             ["@types/sugarss", null],\
@@ -4214,6 +4235,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["vite-vue3-spa-tutorial", "workspace:."],\
+            ["@types/node", "npm:18.14.0"],\
+            ["@types/vue", "npm:2.0.0"],\
             ["@typescript-eslint/eslint-plugin", "virtual:9acf6c26498f954ce3381b3bfc555c2a1f59645ea70e86e2566dbc73546b3dc11e8e154c6a3e7122182171ef5e4afadd8b0934b1cb3c916336e90de767918eab#npm:5.52.0"],\
             ["@typescript-eslint/parser", "virtual:9acf6c26498f954ce3381b3bfc555c2a1f59645ea70e86e2566dbc73546b3dc11e8e154c6a3e7122182171ef5e4afadd8b0934b1cb3c916336e90de767918eab#npm:5.52.0"],\
             ["@vitejs/plugin-vue", "virtual:9acf6c26498f954ce3381b3bfc555c2a1f59645ea70e86e2566dbc73546b3dc11e8e154c6a3e7122182171ef5e4afadd8b0934b1cb3c916336e90de767918eab#npm:4.0.0"],\
