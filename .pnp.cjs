@@ -40,6 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-airbnb-base", "virtual:9acf6c26498f954ce3381b3bfc555c2a1f59645ea70e86e2566dbc73546b3dc11e8e154c6a3e7122182171ef5e4afadd8b0934b1cb3c916336e90de767918eab#npm:15.0.0"],\
             ["eslint-plugin-import", "virtual:9acf6c26498f954ce3381b3bfc555c2a1f59645ea70e86e2566dbc73546b3dc11e8e154c6a3e7122182171ef5e4afadd8b0934b1cb3c916336e90de767918eab#npm:2.27.5"],\
             ["eslint-plugin-vue", "virtual:9acf6c26498f954ce3381b3bfc555c2a1f59645ea70e86e2566dbc73546b3dc11e8e154c6a3e7122182171ef5e4afadd8b0934b1cb3c916336e90de767918eab#npm:9.9.0"],\
+            ["prettier", "npm:2.8.4"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=a1c5e5"],\
             ["vite", "virtual:9acf6c26498f954ce3381b3bfc555c2a1f59645ea70e86e2566dbc73546b3dc11e8e154c6a3e7122182171ef5e4afadd8b0934b1cb3c916336e90de767918eab#npm:4.1.2"],\
             ["vite-plugin-checker", "virtual:9acf6c26498f954ce3381b3bfc555c2a1f59645ea70e86e2566dbc73546b3dc11e8e154c6a3e7122182171ef5e4afadd8b0934b1cb3c916336e90de767918eab#npm:0.5.6"],\
@@ -3427,6 +3428,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["prettier", [\
+        ["npm:2.8.4", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.8.4-ba64a351d1-c173064bf3.zip/node_modules/prettier/",\
+          "packageDependencies": [\
+            ["prettier", "npm:2.8.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["promise-inflight", [\
         ["npm:1.0.1", {\
           "packageLocation": "./.yarn/cache/promise-inflight-npm-1.0.1-5bb925afac-2274948309.zip/node_modules/promise-inflight/",\
@@ -4211,6 +4221,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-airbnb-base", "virtual:9acf6c26498f954ce3381b3bfc555c2a1f59645ea70e86e2566dbc73546b3dc11e8e154c6a3e7122182171ef5e4afadd8b0934b1cb3c916336e90de767918eab#npm:15.0.0"],\
             ["eslint-plugin-import", "virtual:9acf6c26498f954ce3381b3bfc555c2a1f59645ea70e86e2566dbc73546b3dc11e8e154c6a3e7122182171ef5e4afadd8b0934b1cb3c916336e90de767918eab#npm:2.27.5"],\
             ["eslint-plugin-vue", "virtual:9acf6c26498f954ce3381b3bfc555c2a1f59645ea70e86e2566dbc73546b3dc11e8e154c6a3e7122182171ef5e4afadd8b0934b1cb3c916336e90de767918eab#npm:9.9.0"],\
+            ["prettier", "npm:2.8.4"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=a1c5e5"],\
             ["vite", "virtual:9acf6c26498f954ce3381b3bfc555c2a1f59645ea70e86e2566dbc73546b3dc11e8e154c6a3e7122182171ef5e4afadd8b0934b1cb3c916336e90de767918eab#npm:4.1.2"],\
             ["vite-plugin-checker", "virtual:9acf6c26498f954ce3381b3bfc555c2a1f59645ea70e86e2566dbc73546b3dc11e8e154c6a3e7122182171ef5e4afadd8b0934b1cb3c916336e90de767918eab#npm:0.5.6"],\
